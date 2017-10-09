@@ -1,0 +1,54 @@
+*
+{margin: 0;
+	padding: 0;
+	}
+	img
+	{width:50px;
+
+height: 50px;
+		 }
+	.wrapper
+	{
+		width: 300px;
+		height: 100%;
+		margin-left: 300px;
+		margin-top: 100px;
+		}
+		input[type=text],input[type=number],input[type=password],input[type=email],button
+		{
+			 width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+		}
+
+		input[type=submit],button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-color: black;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: black;
+}
